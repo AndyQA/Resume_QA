@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 89px;
+    background-color: #0e1320;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+}
+.menu-box {
+    display: flex;
+    text-align: center;
+    padding-left: 100px;
+}
+li {
+    width: 300px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    padding-left: 55px;
+    padding-top: 30px;
+    margin: 0px 25px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    color: rgb(248, 194, 178);
+}
+
+.home {
+    height: 1080px;
+    padding-top: 200px;
+    padding-left: 150px;
+    background-image: url(./images/background.jpg);
+    background-size: 100% no-repeat;
+
+}
+.home-content {
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    color: whitesmoke;
+}
+.text_1{
+    font-size: 30px;
+}
+.text_2{
+    font-size: 75px;
+}
+.text_3{
+    font-size: 40px;
+}
+.newtab {
+    display: inline-block;
+    background: #2d303a;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(0, 0, 0);
+    user-select: none;
+    -webkit-transition: 60s;
+    transition: 0.10s; 
+}
+.linkedin_link:hover{
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 30px;
+    border-color: whitesmoke;
+    transition: all .3s ease;
+}
+
+.about {
+    height: 800px;
+    background-color: hsl(186, 39%, 86%);
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 30px;
+    margin: auto;
+}
+.title {
+    height: 220px;
+    position: relative;
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    padding-top: 90px;
+}
+.about-content {
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about-content .left {
+    width: 27%;
+    margin: 0;
+}
+.photo {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about .about-content .right {
+    width: 800px;
+    padding-left: 100px;
+    margin: 0px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    width: 600px;
+}
+.cv_link:hover{
+    background-color: transparent;
+    color: #000000;
+    font-size: 30px;
+    border-color: #000000;
+    transition: all .3s ease;
+}
+
+.skills {
+    height: 700px;
+    background-color: #171c29;
+    color: whitesmoke;
+}
+.skills-content {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.skills .skills-content .left{
+    width: 500px;
+    height: 240px;
+}
+.text_4 {
+    width: 540px;
+    height: 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: justify;
+    font-weight: 600;
+    padding-top: 0px;
+}
+.skills .skills-content .left p{
+    width: 600px;
+    height: 147px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.skills .skills-content .right{
+    width: 500px;
+    height: 240px;
+}
+.skills .skills-content .text{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+}
+
+.contact {
+    height: 550px;
+    background-color: hsl(184, 30%, 89%);
+}
+.contact-content {
+    height: 300px;
+}
+.contact .contact-content .top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contact .contact-content .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.image {
+    width: 100px;
+    height: 100px;
+}
+.hover_scale:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #0e1320;   
+}
+.city {
+    height: 50px;
+    position: relative;
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.back_to_top {
+    position: fixed;
+    height: 48px;
+    width: 50px;
+    background: #000000;
+    right: 35px;
+    text-align: center;
+    line-height: 45px;
+    color: whitesmoke;
+    z-index: 50;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.back_to_top:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    color: whitesmoke;
+}
+
+@media (max-width: 1170px) {
+    li{
+        margin: 0px;     
+    }
+    .about .about-content .right {
+        width: 400px;
+        padding-left: 0px;
+    }
+    p{
+        font-size: 20px;
+        width: 400px;
+        margin: 0px;
+        float: right;
+    }
+    .photo {
+        width: 300px;
+        height: 400px;
+        margin-left: 60px;
+    }
+    .skills .skills-content .left p {
+        width: 400px; 
+        font-size: 20px;
+    }
+    .skills .skills-content .text {
+        width: 450px; 
+        font-size: 20px; 
+    }
+    .skills .skills-content .left p{
+        width: 500px;
+    }
+    
+}
+
+@media (max-width: 1070px) {
+    .menu-box{
+        width: 800px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .skills .skills-content .left {
+        width: 300px;
+    }
+    .skills .skills-content .left p {
+        font-size: 18px;
+        width: 300px;
+    }
+    .skills .skills-content .text { 
+        font-size: 18px; 
+    }
+    p{
+        width: 400px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .text_4{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 970px) {
+    .photo {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+    .text_4{
+        font-size: 18px;
+    }
+    .skills .skills-content .left p{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px) {
+    .menu-btn{
+        display: none;
+    }
+    header{
+        width: 375px;
+        z-index: 0;
+    }
+    .home {
+        padding-left: 50px;
+    }
+    .text_1{
+        font-size: 24px;
+        width: 340px;
+        padding-right: 100px;
+    }
+    .text_2{
+        font-size: 44px;
+        width: 200px;
+    }
+    .text_3 {
+        font-size: 32px;
+    }
+    .photo{
+        width: 150px;
+        height: 200px;
+        margin: 0px;
+    }
+    .about .about-content .left {
+        width: 150px;
+    }
+    .about .about-content .right {
+        width: 300px;
+    }
+    p{
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+    #about_me{
+        height: 950px;
+    }
+    #skills{
+        height: 1450px;
+    }
+    .text_4 {
+        font-size: 22px;
+    }
+    .skills .skills-content .left p{
+        width: 400px;
+        font-size: 18px;
+    }
+    .skills .skills-content .right{
+        width: 400px;
+    }
+    .skills .skills-content .right .text_4{
+        padding-top: 180px;
+        padding-bottom: 60px;
+    }
+    .skills .skills-content .text{
+        margin-top: 30px;
+        width: 300px;
+    }
+    #contact{
+        height: 600px;
+    }
+    .contact .contact-content .top p{
+        padding: 0px;
+    }
+    .image{
+        width: 90px;
+        height: 90px;
+    }
+    .contact .contact-content .bottom{
+        padding-top: 80px;
+    }
+}
